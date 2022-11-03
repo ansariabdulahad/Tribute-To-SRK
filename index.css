@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(13, 255, 0);
+}
+
+body {
+    background-color: rgb(83, 114, 150);
+}
+
+.title {
+    text-shadow: 2px 2px 5px black;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+h1, h2, h3, h5 {
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+img:hover {
+    box-shadow: -5px -5px 5px black;
+}
+
+.caption {
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.info {
+    padding: 5px;
+    background-color: rgb(9, 13, 43);
+    width: 70%;
+    margin-left: 210px;
+    border-radius: 20px;
+    min-height: 500px;
+    max-height: 100%;
+    box-shadow: 5px 5px 5px black;
+}
+
+ul {
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: rgb(36, 57, 99);
+    box-shadow: 2px 2px 5px black;
+    color: rgba(250, 235, 215, 0.672);
+    width: 70%;
+    line-height: 25px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.538);
+}
+
+ol {
+    margin-left: 50px;
+    background-color: rgb(13, 19, 41);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: rgb(17, 29, 54);
+    color: rgba(250, 235, 215, 0.619);
+}
+
+.bottom a {
+    color: rgb(13, 19, 41);
+}
